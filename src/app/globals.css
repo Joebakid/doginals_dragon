@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Roboto:wght@300;400;500&family=Rubik:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Unica+One&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #292929;
+  color: white;
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-family: "Unica One", sans-serif;
+}
+
+.primary-gradient {
+  background: linear-gradient(to bottom right, red, rgb(255, 255, 0));
+}
+
+input {
+  background: #8d8d8d81;
+  /* background: rgba(255, 255, 255, 0.03); */
+  @apply h-11 w-full  px-3 text-base outline-none focus:border focus:outline-none focus:shadow-md rounded-lg duration-300   mb-1;
+}
+select {
+  background: #8d8d8d81;
+  /* background: rgba(255, 255, 255, 0.03); */
+  @apply h-11 w-36  px-3 text-base outline-none focus:border focus:outline-none focus:shadow-md rounded-lg duration-300   mb-1;
+}
+option {
+  background: #8d8d8d81;
+  /* background: rgba(255, 255, 255, 0.03); */
+  @apply h-11 w-36  px-3 text-base  rounded-lg duration-300   mb-1;
+}
+
+.customShadow {
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.25);
+}
+
+.image-gallery {
+  display: grid;
+  /* padding: 0% 15%; */
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 1rem;
+  justify-content: space-between;
+  /* @apply px-[10%] md:px-[10%] lg:px-[5%] ; */
+  /* @apply ; */
+}
+
+.cards {
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.25);
+  align-self: center;
+  @apply min-h-40 md:max-w-36 hover:bg-secTransparent duration-150;
+}
+
+.hide-scroll::-webkit-scrollbar {
+  display: none;
+  scrollbar-width: none;
+}
