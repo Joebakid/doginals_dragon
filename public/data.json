@@ -5731,12 +5731,12 @@
     "collectionSymbol": "doginalsdragon",
     "imageUrl": "https://api.doggy.market/inscriptions/c31f3ca50405a99e672cc4a583f5ace790a680ee535bb1c25717b88812de5556i0/content",
     "attributes": {
-      "rank": "rare",
-      "wings": "scales",
-      "neck": "chain",
-      "mouth": "closed dragon ball",
-      "shirt": "design",
-      "eye": "thick lasers"
+      "rank": "common",
+      "wings": "dirty",
+      "neck": "none",
+      "mouth": "closed",
+      "shirt": "purple",
+      "eye": "funky"
     }
   },
   {
@@ -14691,7 +14691,7 @@
     "collectionSymbol": "doginalsdragon",
     "imageUrl": "https://api.doggy.market/inscriptions/a91756f8d4f2e65d27fa8b1482ac4eb0f23207413c8beff9e6b561dd3dac80a4i0/content",
     "attributes": {
-      "rank": "rare",
+      "rank": "legendary",
       "wings": "scales",
       "neck": "chain",
       "mouth": "closed dragon ball",
