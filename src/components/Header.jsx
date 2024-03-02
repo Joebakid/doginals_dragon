@@ -80,7 +80,7 @@ export default function Header() {
             <Link
               legacyBehavior
               target="_blank"
-              href="https://www.doginalsdragon.com/"
+              href="https://doggy.market/nfts/doginalsdragon"
             >
               <li className="flex items-center space-x-2">
                 {" "}
@@ -145,7 +145,7 @@ export default function Header() {
             <Link
               legacyBehavior
               target="_blank"
-              href="https://www.doginalsdragon.com/"
+              href="https://doggy.market/nfts/doginalsdragon"
             >
               <li className="cursor-pointer flex items-center space-x-2">
                 {" "}
