@@ -32,7 +32,9 @@ export default function Header() {
               />
             </div>
           </Link>
-          <div>Doginals Dragon</div>
+        </div>
+        <div className="font-medium flex items-center space-x-2 text-2xl">
+          Doginals Dragon
         </div>
         <nav
           className={`${
