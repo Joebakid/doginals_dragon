@@ -19,21 +19,28 @@ export default function Card({ data, index }) {
     <>
       <div className=" cards  ">
         <Link href={`/[preview]`} as={`/${data.inscriptionId}`} passHref>
-          <div className="px-2 py-2">
+          {/* <div className="px-2 py-2">
             <p className="text-center text-xl">
               {data?.name.slice(data?.name.indexOf(" ") + 8)}
-              {/* {data?.name} */}
             </p>
+          </div> */}
+          <div className="px-2 py-1">
+            <p className="text-center text-xl">RANK</p>
           </div>
-          <div className="w-full overflow-hidden object-contain">
+          <div className="w-full min-h-full overflow-hidden object-contain">
             <img
               src={data?.imageUrl}
-              alt="#2400"
+              alt={data?.name}
               className="object-contain w-full"
             />
           </div>
         </Link>
-        <div className="flex justify-center lg:justify-start my-1">
+        <div className="flex justify-between items-center  px-2 my-1">
+          <div className="">
+            <p className="text-center text-xl">
+              {data?.name.slice(data?.name.indexOf(" ") + 8)}
+            </p>
+          </div>
           {data && (
             <button
               onClick={handleCopyClick}

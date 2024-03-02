@@ -35509,11 +35509,11 @@
     "imageUrl": "https://api.doggy.market/inscriptions/0e7e1e8046531c554e826588cca84881a64d3ca4133ebb8d64c74c1041312ea5i0/content",
     "collectionSymbol": "doginalsdragon",
     "attributes": {
-      "rank": "common",
-      "wings": "green",
-      "neck": "none",
+      "rank": "uncommon",
+      "wings": "dirty 2",
+      "neck": "chain",
       "mouth": "closed",
-      "shirt": "aqua",
+      "shirt": "gray" ,
       "eye": "thin lasers"
     }
   },
@@ -46527,11 +46527,11 @@
     "imageUrl": "https://api.doggy.market/inscriptions/af5a6b58334fb80ff00965eb071b64f07978786d07498425ba16d49c3549f2a0i0/content",
     "collectionSymbol": "doginalsdragon",
     "attributes": {
-      "rank": "common",
+      "rank": "uncommon",
       "wings": "white",
-      "neck": "none",
+      "neck": "chain",
       "mouth": "closed",
-      "shirt": "blue 2",
+      "shirt": "blue",
       "eye": "thin lasers"
     }
   },
@@ -50223,11 +50223,11 @@
     "imageUrl": "https://api.doggy.market/inscriptions/8193019391f13ba5e7cb3646a7bb7366261255ea26cbefb4d090009527a0cc8ei0/content",
     "collectionSymbol": "doginalsdragon",
     "attributes": {
-      "rank": "common",
-      "wings": "purple",
-      "neck": "none",
+      "rank": "uncommon",
+      "wings": "dirty lilac",
+      "neck": "chain",
       "mouth": "closed",
-      "shirt": "lilac",
+      "shirt": "purple",
       "eye": "thin lasers"
     }
   },
@@ -50727,12 +50727,12 @@
     "imageUrl": "https://api.doggy.market/inscriptions/7aa7a80514dd330a78862fb906afbc8eb807682fe94477491fd8e13d57fdbcd0i0/content",
     "collectionSymbol": "doginalsdragon",
     "attributes": {
-      "rank": "common",
-      "wings": "blue",
-      "neck": "none",
+      "rank": "uncommon",
+      "wings": "white",
+      "neck": "chain",
       "mouth": "closed",
-      "shirt": "green",
-      "eye": "funky"
+      "shirt": "blue",
+      "eye": "thin lasers"
     }
   },
   {

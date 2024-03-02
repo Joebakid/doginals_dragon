@@ -20,7 +20,7 @@ export default function Header() {
   return (
     <header className="fixed left-0 right-0 top-0 primary-gradient h-12 z-[1000]">
       <div className="relative container mx-auto px-4 h-full flex items-center justify-between">
-        <div className="font-medium">
+        <div className="font-medium flex items-center space-x-2 text-base">
           <Link href="#">
             <div className="w-8 h-8 object-cover overflow-hidden rounded-full">
               <Image
@@ -32,6 +32,7 @@ export default function Header() {
               />
             </div>
           </Link>
+          <div>Doginals Dragon</div>
         </div>
         <nav
           className={`${
