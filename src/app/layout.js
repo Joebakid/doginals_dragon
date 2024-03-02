@@ -2,7 +2,7 @@ import Header from "@/components/Header";
 import "./globals.css";
 
 export const metadata = {
-  title: "Dragon Cartel",
+  title: "Doginals Dragon",
   description: "Doginals Dragon Rarity Checker",
   icons: {
     icon: ["/favicon.ico?v=4"],

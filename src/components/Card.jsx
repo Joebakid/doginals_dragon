@@ -27,7 +27,7 @@ export default function Card({ data, index }) {
           <div className="px-2 py-1">
             <p className="text-center text-xl">RANK</p>
           </div>
-          <div className="w-full min-h-full overflow-hidden object-contain">
+          <div className="w-full min-h-24 overflow-hidden object-contain">
             <img
               src={data?.imageUrl}
               alt={data?.name}
@@ -42,6 +42,19 @@ export default function Card({ data, index }) {
             </p>
           </div>
           {data && (
+            <Link
+              href={`https://doggy.market/inscription/${data?.inscriptionId}`}
+              target="_blank"
+            >
+              <button
+                // onClick={viewOnDoggy}
+                className={` my-2 primary-gradient  rounded-lg px-2 py-1 text-sm hover:scale-[0.95] duration-150 active:scale-100`}
+              >
+                Buy
+              </button>
+            </Link>
+          )}
+          {/* {data && (
             <button
               onClick={handleCopyClick}
               className={`${
@@ -50,7 +63,7 @@ export default function Card({ data, index }) {
             >
               {copied ? "Copied" : "Copy ID"}
             </button>
-          )}
+          )} */}
         </div>
       </div>
     </>

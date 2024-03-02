@@ -3,6 +3,8 @@
 import { useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
 import { MdKeyboardBackspace } from "react-icons/md";
+import { FaRegCopy } from "react-icons/fa";
+import Link from "next/link";
 
 export default function Preview({ params: preview }) {
   const router = useRouter();
@@ -11,6 +13,9 @@ export default function Preview({ params: preview }) {
 
   const goBack = () => {
     router.back();
+  };
+  const viewOnDoggy = () => {
+    router.push(`doggy.market/inscription/${preview.preview} `);
   };
 
   useEffect(() => {
@@ -58,7 +63,7 @@ export default function Preview({ params: preview }) {
             </h2>
             <img
               src={item?.imageUrl}
-              alt="#2400"
+              alt={item?.name}
               className="object-contain w-full"
             />
           </div>
@@ -67,7 +72,20 @@ export default function Preview({ params: preview }) {
               <h2 className="text-center lg:text-start text-2xl hidden lg:block ">
                 {item?.name}
               </h2>
-              <div className="flex justify-center lg:justify-start">
+              <div className="flex justify-center space-x-2 lg:justify-start">
+                {item && (
+                  <Link
+                    href={`https://doggy.market/inscription/${item.inscriptionId}`}
+                    target="_blank"
+                  >
+                    <button
+                      // onClick={viewOnDoggy}
+                      className={` my-2 primary-gradient  rounded-lg px-2 py-1 text-sm hover:scale-[0.95] duration-150 active:scale-100`}
+                    >
+                      View on Doggy
+                    </button>
+                  </Link>
+                )}
                 {item && (
                   <button
                     onClick={handleCopyClick}
@@ -75,7 +93,8 @@ export default function Preview({ params: preview }) {
                       copied ? "bg-secTransparent" : "primary-gradient"
                     }  my-2  rounded-lg px-2 py-1 text-sm hover:scale-[0.95] duration-150 active:scale-100`}
                   >
-                    {copied ? "Copied" : "Copy Inscription ID"}
+                    {/* {copied ? "Copied" : "Copy Inscription ID"} */}
+                    <FaRegCopy size={16} />
                   </button>
                 )}
               </div>

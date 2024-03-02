@@ -47,59 +47,55 @@ export default function Header() {
             onClick={openNav}
             className="px-4 pt-2 pb-4 flex flex-col space-y-2 font-medium"
           >
-            <Link
-              legacyBehavior
-              target="_blank"
-              href="https://t.me/DoginalsDragon"
-            >
+            <Link target="_blank" href="https://t.me/DoginalsDragon">
               <li className="flex items-center space-x-2">
                 {" "}
                 <FaTelegramPlane size={18} />
-                <a>Telegram </a>
+                <span>Telegram </span>
               </li>
             </Link>
             <Link
-              legacyBehavior
+              
               target="_blank"
               href="https://x.com/DoginalsDragon?t=rxNKddrXdiY0jkpnezBb1Q&s=09"
             >
               <li className="flex items-center space-x-2">
                 {" "}
                 <BsTwitterX size={18} />
-                <a>Twitter </a>
+                <span>Twitter </span>
               </li>
             </Link>
             <Link
-              legacyBehavior
+              
               target="_blank"
               href="https://discord.com/invite/jRmKF7RZ"
             >
               <li className="flex items-center space-x-2">
                 {" "}
                 <FaDiscord size={18} />
-                <a>Discord </a>
+                <span>Discord </span>
               </li>
             </Link>
             <Link
-              legacyBehavior
+              
               target="_blank"
               href="https://doggy.market/nfts/doginalsdragon"
             >
               <li className="flex items-center space-x-2">
                 {" "}
                 <FaShop size={18} />
-                <a>Market </a>
+                <span>Market </span>
               </li>
             </Link>
             <Link
-              legacyBehavior
+              
               target="_blank"
               href="https://www.doginalsdragon.com/"
             >
               <li className="flex items-center space-x-2">
                 {" "}
                 <TbWorld size={18} />
-                <a>Website </a>
+                <span>Website </span>
               </li>
             </Link>
           </ul>
@@ -112,59 +108,55 @@ export default function Header() {
 
         <nav className="hidden lg:block">
           <ul className="flex space-x-10 text-lg">
-            <Link
-              legacyBehavior
-              target="_blank"
-              href="https://t.me/DoginalsDragon"
-            >
+            <Link target="_blank" href="https://t.me/DoginalsDragon">
               <li className="cursor-pointer flex items-center space-x-2">
                 {" "}
                 <FaTelegramPlane size={18} />
-                <a>Telegram </a>
+                <span>Telegram </span>
               </li>
             </Link>
             <Link
-              legacyBehavior
+              
               target="_blank"
               href="https://x.com/DoginalsDragon?t=rxNKddrXdiY0jkpnezBb1Q&s=09"
             >
               <li className="cursor-pointer flex items-center space-x-2">
                 {" "}
                 <BsTwitterX size={18} />
-                <a>Twitter </a>
+                <span>Twitter </span>
               </li>
             </Link>
             <Link
-              legacyBehavior
+              
               target="_blank"
               href="https://discord.com/invite/jRmKF7RZ"
             >
               <li className="cursor-pointer flex items-center space-x-2">
                 {" "}
                 <FaDiscord size={18} />
-                <a>Discord </a>
+                <span>Discord </span>
               </li>
             </Link>
             <Link
-              legacyBehavior
+              
               target="_blank"
               href="https://doggy.market/nfts/doginalsdragon"
             >
               <li className="cursor-pointer flex items-center space-x-2">
                 {" "}
                 <FaShop size={18} />
-                <a>Market </a>
+                <span>Market </span>
               </li>
             </Link>
             <Link
-              legacyBehavior
+              
               target="_blank"
               href="https://www.doginalsdragon.com/"
             >
               <li className="cursor-pointer flex items-center space-x-2">
                 {" "}
                 <TbWorld size={18} />
-                <a>Website </a>
+                <span>Website </span>
               </li>
             </Link>
           </ul>
