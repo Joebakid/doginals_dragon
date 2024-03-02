@@ -55655,12 +55655,12 @@
     "imageUrl": "https://api.doggy.market/inscriptions/27fa6ebc6acb18e391407eba0a055944fdd2baa9a4649a1bb922b87d323b9ab4i0/content",
     "collectionSymbol": "doginalsdragon",
     "attributes": {
-      "rank": "uncommon",
-      "wings": "white",
+      "rank": "legendary",
+      "wings": "scales",
       "neck": "chain",
-      "mouth": "closed",
-      "shirt": "pink",
-      "eye": "thin lasers"
+      "mouth": "opened dragon ball",
+      "shirt": "design",
+      "eye": "thick lasers"
     }
   },
   {

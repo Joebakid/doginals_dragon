@@ -53,6 +53,9 @@ export default function Preview({ params: preview }) {
         </div>
         <div className=" min-h-[80vh] lg:min-h-[75vh] max-w-md lg:max-w-full b-red-300 mx-auto lg:flex mt-5 lg:mt-10">
           <div className="w-full lg:w-1/2 overflow-hidden object-contain">
+            <h2 className="text-center lg:text-start text-3xl md:text-4xl lg:hidden mb-4">
+              {item?.name}
+            </h2>
             <img
               src={item?.imageUrl}
               alt="#2400"
@@ -61,14 +64,16 @@ export default function Preview({ params: preview }) {
           </div>
           <div className="px-2 py-2 flex-1 max-w-[400px] flex flex-col items-cnter mx-auto ">
             <div className="lg:flex lg:justify-between items-center">
-              <p className="text-center lg:text-start text-xl">{item?.name}</p>
+              <h2 className="text-center lg:text-start text-2xl hidden lg:block ">
+                {item?.name}
+              </h2>
               <div className="flex justify-center lg:justify-start">
                 {item && (
                   <button
                     onClick={handleCopyClick}
                     className={`${
                       copied ? "bg-secTransparent" : "primary-gradient"
-                    }  my-2  rounded-lg px-2 py-1 text-xs hover:scale-[0.95] duration-150 active:scale-100`}
+                    }  my-2  rounded-lg px-2 py-1 text-sm hover:scale-[0.95] duration-150 active:scale-100`}
                   >
                     {copied ? "Copied" : "Copy Inscription ID"}
                   </button>

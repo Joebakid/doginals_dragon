@@ -5,6 +5,7 @@ import { IoIosMenu } from "react-icons/io";
 import { FaTelegramPlane } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import { FaDiscord } from "react-icons/fa6";
+import { FaShop } from "react-icons/fa6";
 import { TbWorld } from "react-icons/tb";
 import Image from "next/image";
 
@@ -83,6 +84,17 @@ export default function Header() {
             >
               <li className="flex items-center space-x-2">
                 {" "}
+                <FaShop size={18} />
+                <a>Market </a>
+              </li>
+            </Link>
+            <Link
+              legacyBehavior
+              target="_blank"
+              href="https://www.doginalsdragon.com/"
+            >
+              <li className="flex items-center space-x-2">
+                {" "}
                 <TbWorld size={18} />
                 <a>Website </a>
               </li>
@@ -128,6 +140,17 @@ export default function Header() {
                 {" "}
                 <FaDiscord size={18} />
                 <a>Discord </a>
+              </li>
+            </Link>
+            <Link
+              legacyBehavior
+              target="_blank"
+              href="https://www.doginalsdragon.com/"
+            >
+              <li className="cursor-pointer flex items-center space-x-2">
+                {" "}
+                <FaShop size={18} />
+                <a>Market </a>
               </li>
             </Link>
             <Link

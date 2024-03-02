@@ -156,6 +156,7 @@ export default function Home() {
   return (
     <section className="bg-gree-200 text-white">
       <div className="container mx-auto px-4 pt-2">
+        <h2 className="text-4xl md:text-6xl text-center">Doginal Dragons</h2>
         <div className="text-center mt-3 text-lg">Rarity Ranking</div>
 
         <div className="lg:flex lg:space-x-3 justify-center mt-4 ">
@@ -168,7 +169,10 @@ export default function Home() {
               placeholder="Type Number"
               value={searchTerm}
               className="customShadow"
-              onChange={(e) => setSearchTerm(e.target.value)}
+              onChange={(e) => {
+                setSearchTerm(e.target.value);
+                setCurrentPage(1);
+              }}
             />
             <div className="absolute top-3 right-2 text-primary ">
               <AiOutlineSearch size={24} />
